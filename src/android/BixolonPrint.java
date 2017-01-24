@@ -31,6 +31,7 @@ import java.util.Map;
 import java.util.HashMap;
 //import java.util.Queue;
 import java.util.Set;
+import java.lang.*;
 
 import org.apache.cordova.CordovaInterface;
 import org.apache.cordova.CordovaPlugin;
