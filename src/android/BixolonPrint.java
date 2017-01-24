@@ -366,8 +366,8 @@ public class BixolonPrint extends CordovaPlugin {
                 mBixolonPrinter.printText(text + "\r\n", textAlignment, textAttribute, textSize, false);
 		
 		try {
-   			// thread to sleep for 1000 milliseconds
-   			Thread.sleep(1000);
+   			// thread to sleep for 100 milliseconds
+   			Thread.sleep(100);
    		} catch (Exception e) {
    			System.out.println(e);
    		}
