@@ -363,6 +363,8 @@ public class BixolonPrint extends CordovaPlugin {
                 textSize = this.getTextSize(width, height);
 
                 mBixolonPrinter.printText(text + "\r\n", textAlignment, textAttribute, textSize, false);
+		
+		Thread.sleep(1000);
 
             } catch (JSONException e2) {
                 this.isValidAction = false;
